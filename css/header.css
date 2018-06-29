@@ -1,0 +1,11 @@
+
+body{margin:0px; padding: 0px;}
+#banner{background-image: url('../images/Header.jpg');height:250px;} 
+          h1{color: #0404B4;}
+          #mik1{color: #03148F; font-family: Chaparral Pro Light; font-size: 60px}
+          #mik2{color: #B141FE; font-family: Chaparral Pro Light; font-size: 60px} 
+          li{font-size: 20px; color:#ccc;font-family: Chaparral Pro Light; float: left;}
+          ul{list-style-type: none; margin: 0;overflow: hidden; background-color: #53AFEE;}
+          li a {display: block; color: black; text-align: center; padding: 13px; text-decoration: none;}
+          li a:hover{background-color: #4B9CD1;}
+          #margin{margin-left: 280px;}

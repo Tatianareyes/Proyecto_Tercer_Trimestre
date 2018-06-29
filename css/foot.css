@@ -1,0 +1,9 @@
+
+body{margin:0px;}
+.divfoot{display:inline-block;width: 32%; height:180px; float:left; margin:2px; background-color:#52ABF1;padding: 8px; }
+          .divfoot a{text-decoration: none;color:#03108D;font-weight: normal;}
+          .divfoot a:hover{color:#ccc; text-decoration: underline;}
+           #foot{width: 100%; background-color: #C0E8FD; height: 190%; padding: 0;}
+          .spanfoot{font-size: 20px;color:#030303; font-weight: bold; font-family: Chaparral Pro Light; float;left;}
+          .li2{font-family: Aller Light; color: #fff; font-size: 15px; font-weight:bolder; float: left;}
+          

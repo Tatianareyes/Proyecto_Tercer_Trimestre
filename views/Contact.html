@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Contactanos</title>
+        <!-- This is the second form for use CS
+        -->
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+    <iframe src="../templates/header.html" id="iframe-head"></iframe>
+<body>
+  <div id="container">
+    <center>
+  <h1>
+    <span id="mik1">Contactanos y</span>
+    <span id="mik2">Dejanos tu Mensaje</span>
+    </h1> 
+  </center>
+  <br>
+  <br>
+  <br>
+  <br>
+    <ul>
+      
+      <div id="menu">
+      <div class="linkmenu">
+
+      <li> <a 
+      href="Servicios.html" class="li">Servicios</a></li>
+      <li> <a 
+      href="Precios.html" class="li">Tabla de Precios</a></li> 
+      <li> <a 
+      href="Historia.html" class="li">Historia de la Papeleria</a></li>
+      <li> <a 
+      href="Responsable.html" class="li">Empresa Responsable y Confiable</a></li>
+      <li> <a 
+      href="Productos.html" class="li">Productos</a></li>
+      <li> <a 
+      href="Calidad.html" class="li">Diseños de Buena Calidad</a></li>
+    </ul>   
+    </div>
+    </center>
+    
+	  <div id="container1">
+    <h1 id="mik1">Contactanos</h1>
+    <br>
+    <form>
+       <p>
+          <input type="radio" name="servicio" value="cliente" checked> Cliente
+          <input type="radio" name="servicio" value="particular" checked> Particular
+        </p>
+
+        <p>
+          <label>Motivo del Mensaje?</label>
+        </p>
+        <p>
+          <select name="motivo">
+            <option>Quejas</option>
+            <option>Sugerencias</option>
+            <option>Soporte tecnico</option>
+            <option>Nuevo Servicio</option>
+            <option selected="selected">--Seleccionar--</option>
+          </select>
+        </p>
+
+        <p>
+          <div class="parrafo">
+              <label>Nombre:</label>
+            </div>
+            <input type="text" name="nombre"/>
+       </p>
+
+       <p>
+          <div class="parrafo">
+              <label>Email:</label>
+            </div>
+            <input type="text" name="email"/>
+        </p>
+
+        <p>
+           <div class="parrafo">
+          <label>Deja tu comentario...
+          </label>
+        </div>
+        </p>
+
+        <p>
+          <div class="parrafo">
+          <textarea name="comentario"
+              cols="100" rows="10">
+          </textarea>
+        </div>
+        </p>
+
+        <p>
+          <div class="parrafo">
+          <input class="value" type="submit" value="Enviar mensaje"/>
+          <input class="value" type="reset" value="Limpiar datos"/>
+        </div>
+        </p>
+        <br>
+        <span>&copy;Multimedia 2018</span>
+
+      </form> 
+    </div>
+   </div> 
+   <iframe src="../templates/foot.html" id="iframe-foot"></iframe>
+</body>
+</html>
